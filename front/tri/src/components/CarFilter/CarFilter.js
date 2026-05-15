@@ -64,14 +64,6 @@ export default function CarFilter() {
 
     const types = [...new Set(allCars.map((car) => car.type))];
 
-    useEffect(() => {
-        console.log(types)
-    },[models])
-
-    useEffect(() => {
-        console.log(brandFilter)
-    },[brandFilter])
-
     const handleSort = (field) => {
 
         if (sortBy === field) {
