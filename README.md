@@ -39,7 +39,7 @@ pour le backend python on a besoin des dépendances suivantes  :
 ils nous permettront d'avoir plus d'aisance à la création de notre API node. 
 
 
-- pour lancer le serveur, aller dans le répertoire `back/node/service` de notre backend node et lancer la commande suivante :  
+- pour lancer le serveur, aller dans le répertoire `back/node/server` de notre backend node et lancer la commande suivante :  
 
 ```shell
     node server.js
